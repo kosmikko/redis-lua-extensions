@@ -1,0 +1,22 @@
+{
+  "name": "redis-lua-extensions",
+  "version": "0.0.1",
+  "description": "Some useful extensions to node_redis client",
+  "main": "index.js",
+  "keywords": [
+    "redis",
+    "lua"
+  ],
+  "author": "Mikko Lehtinen <me@kosmikko.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.6",
+    "simplelua": "~1.0.0"
+  },
+  "devDependencies": {
+    "precommit-hook": "~0.3.8"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  }
+}
