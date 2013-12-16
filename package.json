@@ -14,9 +14,10 @@
     "simplelua": "~1.0.0"
   },
   "devDependencies": {
-    "precommit-hook": "~0.3.8"
+    "precommit-hook": "~0.3.8",
+    "mocha": "~1.15.1"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node_modules/.bin/mocha -R spec"
   }
 }

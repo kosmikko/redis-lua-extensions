@@ -3,8 +3,8 @@
     "expr": true,
     "loopfunc": true,
     "curly": false,
-    "evil": true,
-    "white": true,
+    "evil": false,
+    "white": false,
     "undef": true,
     "node": true,
     "predef": [
